@@ -15,8 +15,8 @@ Buttons buts;
 
 void setup()
 {
-  //size(612,512);
-  fullScreen();
+  size(612,512);
+  //fullScreen();
   orientation(LANDSCAPE); //ANDROID
   background(bgColour);
   toolbarSize = pixelWidth - pixelHeight;
